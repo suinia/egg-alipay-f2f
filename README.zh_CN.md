@@ -69,7 +69,7 @@ exports.alipayF2f = {
 
 ## 提问交流
 
-请到 [egg issues](https://github.com/eggjs/egg/issues) 异步交流。
+请到 [egg issues](https://github.com/suinia/egg-alipay-f2f/issues) 异步交流。
 
 ## License
 
