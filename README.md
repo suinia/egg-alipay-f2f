@@ -45,10 +45,13 @@ exports.alipayF2f = {
 ```js
 // {app_root}/config/config.default.js
 exports.alipayF2f = {
+  appid: 20170xxxxxx, // 支付宝应用ID
+  notify_url: 'http://xxx.com/notify_url', // 回调地址
+  gateway_url: "https://openapi.alipay.com/gateway.do", // 支付宝网关地址
+  private_key: 'Mxxxx', //开发者应用私钥
+  alipay_public_key: 'mN+Pxxxx' // 支付宝公钥
 };
 ```
-
-see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
 
